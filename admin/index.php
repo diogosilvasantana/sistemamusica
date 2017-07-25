@@ -81,7 +81,7 @@ include "config/data.php";
         <div style="margin:0 auto;width:100%">
             <ul class="notificacoes_aviso">
                 <li id="notification_aviso">
-                    <span id="notification_count_aviso">3</span>
+                    <span id="notification_count_aviso">2</span>
                     <a href="#" id="notificationLink_aviso"><i class="fa fa-exclamation-circle fa-2x"></i></a>
                     <div id="notificationContainer_aviso">
                         <div id="notificationTitle_aviso">Avisos</div>
