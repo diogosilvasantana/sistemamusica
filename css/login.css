@@ -1,0 +1,111 @@
+body{
+    background: url("../images/bg2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover; /*Css safari e chrome*/
+    -moz-background-size: cover; /*Css firefox*/
+    -ms-background-size: cover; /*Css IE não use mer#^@%#*/
+    -o-background-size: cover; /*Css Opera*/
+}
+#fundo-form{
+    margin: 90px auto 100px auto;
+    padding: 35px;
+    width: 340px;
+    min-height:360px;
+    border: dotted 1px #a2a2a2;
+    background-color: #000000;
+    opacity: 0.4;
+}
+h4{
+    margin: 10px auto 10px auto;
+    padding: 5px;
+    position: relative;
+    font-size: 12px;
+    border: dotted 1px #ee280f;
+    width: 277px;
+    text-align: center;
+    color: #ee280f;
+}
+div {
+    position: relative;
+    margin-top: -490px;
+    z-index: 2;
+    font-family: Arial;
+    font-size: 15px;
+}
+p{
+    text-align: center;
+}
+footer {
+    z-index: 3;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:80px;
+    width:100%;
+    background: #000000;
+    border-top: dotted 1px #a2a2a2;
+    opacity: 0.7;
+}
+footer p{
+    z-index: 10;
+    position: relative;
+    font-family: Arial;
+    font-size: 14px;
+    padding-top: 5px;
+    text-align: center;
+    color: #fff;
+}
+.alerta{
+    font-size:15px;
+    float: left;
+    position: absolute;
+}
+
+.formulario {
+    text-align: center;
+    margin: 5px;
+    color: #ffffff;
+}
+.formulario p{
+    text-decoration: none;
+    color: #000000;
+}
+.formulario a:link{
+    text-decoration: none;
+    color: #ffffff;
+}
+.formulario a:hover {
+    color: #dd7800;
+}
+.formulario img{
+    position: absolute;
+    margin: 8px;
+}
+.CaixaTexto{
+    background-color: #fff;
+    font-size: 16px;
+    width: 240px;
+    height: 35px;
+    border: 1px solid #d1d5db;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+.BotaoLogin{
+    background-color: #5d5d5d;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    width: 290px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+}
+
+.BotaoLogin:hover{
+    background-color: #ff8500;
+}

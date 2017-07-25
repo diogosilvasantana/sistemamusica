@@ -1,0 +1,1 @@
+<h2><i class="fa fa-cogs">&ensp;</i>CONFIGURAÇÕES DE E-MAIL</h2>
